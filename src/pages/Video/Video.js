@@ -38,9 +38,9 @@ const Video = () => {
       <h1 className="text">React JS - Challenge 2</h1>
       <div className="player-wrapper">
         {selectedVideo ? (
-          <ReactPlayer url={selectedVideo} playing controls />
+          <ReactPlayer url={selectedVideo} playing controls width="100%" height="100%"/>
         ) : (
-          <ReactPlayer url={video1} playing controls />
+          <ReactPlayer url={video1} playing controls width="100%" height="100%"/>
         )}
       </div>
       <h3 className="text">

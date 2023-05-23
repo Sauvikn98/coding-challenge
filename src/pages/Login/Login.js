@@ -38,7 +38,7 @@ const Login = () => {
         <div className="form">
           <div className="container-2">
             <h2 className="login-text">Login</h2>
-            <div className="main-logo"></div>
+            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:9ede06e3-b742-4d60-8dcb-49b6e3e9fc85;revision=0?component_id=13de306d-16f1-4c56-b31a-40891ad0351d&api_key=CometServer1&access_token=1684824993_urn%3Aaaid%3Asc%3AUS%3A9ede06e3-b742-4d60-8dcb-49b6e3e9fc85%3Bpublic_4207e903d2e52b3153a6e8074823514674e74643" className="main-logo"/>
             <form onSubmit={handleSubmit}>
               <input
                 placeholder="Email"
@@ -67,7 +67,7 @@ const Login = () => {
               <div>
                 <button type="button" class="button">
                   <img src={Google} alt="google" className="google-icon" />
-                  <div className="google-text">Sign up with Google</div>
+                  <div className="google-text">Continue with Google</div>
                 </button>
               </div>
 
@@ -78,7 +78,7 @@ const Login = () => {
                     alt="facebook"
                     className="facebook-icon"
                   />
-                  <div className="facebook-text">Sign up with Facebook</div>
+                  <div className="facebook-text">Continue with Facebook</div>
                 </button>
               </div>
             </div>
