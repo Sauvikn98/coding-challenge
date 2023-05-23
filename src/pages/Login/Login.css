@@ -1,0 +1,194 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+}
+
+.cover-photo {
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 263px;
+  background: transparent
+    url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:9ede06e3-b742-4d60-8dcb-49b6e3e9fc85;revision=0?component_id=ec4cef24-021e-4ac5-8f28-891d3a7b1708&api_key=CometServer1&access_token=1684824993_urn%3Aaaid%3Asc%3AUS%3A9ede06e3-b742-4d60-8dcb-49b6e3e9fc85%3Bpublic_4207e903d2e52b3153a6e8074823514674e74643)
+    0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 1);
+  opacity: 1;
+}
+
+.rectangle-2 {
+  top: 81px;
+  left: 395px;
+  height: 58px;
+  width: 577px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 7px #00000029;
+  border-radius: 6px 6px 0px 0px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-2 .amazon-logo {
+  top: 95px;
+  left: 632px;
+  width: 99px;
+  height: 28px;
+  background: transparent
+    url(https://cdn.freebiesupply.com/images/large/2x/amazon-logo-transparent.png)
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 90px;
+
+  background-size: contain;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-text {
+  font: normal normal normal 29px/35px Josefin Sans;
+  letter-spacing: 0px;
+  color: rgba(32, 183, 22, 1);
+  opacity: 1;
+}
+
+.main-logo {
+  top: 208px;
+  left: 491px;
+  width: 385px;
+  height: 128px;
+  background: transparent
+    url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:9ede06e3-b742-4d60-8dcb-49b6e3e9fc85;revision=0?component_id=13de306d-16f1-4c56-b31a-40891ad0351d&api_key=CometServer1&access_token=1684824993_urn%3Aaaid%3Asc%3AUS%3A9ede06e3-b742-4d60-8dcb-49b6e3e9fc85%3Bpublic_4207e903d2e52b3153a6e8074823514674e74643)
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.login-form {
+  width: 577px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: -100px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 385px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid rgba(32, 183, 22, 1);
+  outline: none;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+}
+
+.error-text {
+  margin-left: 3px;
+  font: normal normal normal 13px/19px Myriad Pro;
+  letter-spacing: 0px;
+  color: rgba(238, 45, 110, 1);
+  opacity: 1;
+}
+
+.login-form button[type="submit"] {
+  top: 475px;
+  left: 490px;
+  width: 386px;
+  height: 49px;
+  background: rgba(32, 183, 22, 1) 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  opacity: 1;
+  font: normal normal normal 19px/23px Josefin Sans;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+
+.additional-links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.additional-links .text-button1 {
+  text-align: left;
+  font: normal normal 14px Josefin Sans;
+
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+}
+
+.additional-links .text-button2 {
+  text-align: right;
+  font: normal normal 14px Josefin Sans;
+  color: rgba(217, 24, 95, 1);
+  opacity: 1;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.or-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font: normal normal normal 16px/19px Josefin Sans;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+}
+
+.button {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 380px;
+  height: 45px;
+  max-width: 30rem;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background: rgba(66, 133, 244, 1) 0% 0% no-repeat padding-box;
+  transition: background-color 0.3s;
+}
+
+.google-icon {
+  height: 30px;
+}
+
+.facebook-icon {
+  height: 33px;
+}
+
+.google-text {
+  position: relative;
+  left: 80px;
+}
+
+.facebook-text {
+  position: relative;
+  left: 70px;
+}

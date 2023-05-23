@@ -1,0 +1,42 @@
+.video {
+  height: 100vh;
+}
+
+.player-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.thumbnail-circles {
+  overflow-x: scroll;
+  display: flex;
+  margin-top: 20px;
+}
+
+.thumbnail-circles:hover {
+  display: flex;
+}
+
+.thumbnail-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: lightgray;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.thumbnail-circles:hover .thumbnail-circle {
+  opacity: 1;
+}
+
+.thumbnail-circle:hover {
+  border: 2px solid blue;
+  display: flex;
+}
+
+.text {
+  text-align: center;
+}
